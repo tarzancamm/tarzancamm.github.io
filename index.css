@@ -1,5 +1,5 @@
 /* fonts */
-@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Poppins:wght@400;600;700&display=swap');
 
 /* font-family: 'Barriecito', cursive; */
 /* font-family: 'Poppins', sans-serif; */
@@ -51,6 +51,10 @@ table {
 
 
 /* full page */
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #DBDBDB;
     font-family: 'Poppins', sans-serif;
@@ -65,6 +69,7 @@ main {
 /* Nav */
 .navbar {
     z-index: 10;
+    background-color: #DBDBDB;
     top: 0;
     position: fixed;
     height: 5rem;
@@ -97,8 +102,8 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 18%;
-    margin-bottom: 25%;
+    margin-top: 16%;
+    margin-bottom: 15%;
     margin-left: 12%;
     margin-right: 12%;
 
@@ -126,8 +131,9 @@ main {
     border-radius: 175px;
 }
 
-.intro-container button {
-    margin-top: 2rem;
+.portfolio-btn {
+    position: relative;
+    top: 3rem;
     padding: 15px 35px;
     font-size: 1rem;
     font-weight: 600;
@@ -136,9 +142,72 @@ main {
     color: #DBDBDB;
     border: 0;
     border-radius: 5px;
+    text-decoration: none;
+}
+
+.portfolio-btn:hover {
+    background-color: rgba(25, 21, 22, .75)
 }
 
 /* Projects */
+.portfolio {
+    height: 750px;
+}
+
+.projects-title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    position: relative;
+    top: 15%;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 13%;
+}
+
+.veer {
+
+}
+
+.veer img {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.project-links {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+.project-desc {
+    width: 350px;
+    font-size: .9rem;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+
+.veer a {
+    color: #0B7A75;
+    padding-left: .6rem;
+    text-decoration: none;
+}
+
+.veer a:hover {
+    color: #191516;
+}
 
 
 /* Skills */
+.skills {
+    height: 700px;
+}
+.skills-title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+}
