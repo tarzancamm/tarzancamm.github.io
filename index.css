@@ -92,7 +92,8 @@ main {
 }
 
 .menu:hover {
-    color: #0B7A75;
+    color: #84596B;
+    cursor: pointer;
 }
 
 
@@ -106,14 +107,12 @@ main {
     margin-bottom: 15%;
     margin-left: 12%;
     margin-right: 12%;
-
 }
 
 .intro-container h2 {
     margin-top: .7rem;
     font-size: 3rem;
     font-weight: bold;
-
 }
 
 .intro-container .ln {
@@ -192,7 +191,7 @@ main {
     width: auto;
     height: auto;
     margin-bottom: 3rem;
-    border-radius: 10px;
+    border-radius: 12px;
 }
 
 .veerphotolink:hover {
@@ -214,7 +213,7 @@ main {
 }
 
 .veer a {
-    color: #0B7A75;
+    color: #84596B;
     padding-left: .6rem;
     text-decoration: none;
 }
