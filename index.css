@@ -120,7 +120,8 @@ main {
 }
 
 .intro-container .ln {
-    color: #0B7A75
+    /* color: #0B7A75; */
+    color: #FAFAFF;
 }
 
 .intro-description {
