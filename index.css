@@ -120,7 +120,7 @@ main {
 }
 
 .intro-container .ln {
-    color: #0B7A75;
+    color: #1f6f89;
 }
 
 .intro-description {
@@ -177,7 +177,7 @@ main {
     font-size: 2rem;
     font-weight: 700;
     position: relative;
-    top: 15%;
+    top: 11%;
 }
 
 .projects {
