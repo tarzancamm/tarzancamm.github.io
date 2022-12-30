@@ -309,8 +309,9 @@ main {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
+    gap: 3rem;
 }
 
 .aboutme-img {
