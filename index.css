@@ -109,8 +109,8 @@ main {
     align-items: center;
     padding-top: 10%;
     margin-bottom: 15%;
-    margin-left: 12%;
-    margin-right: 12%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 .intro-container h2 {
@@ -306,10 +306,11 @@ main {
 
 .about-content {
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    margin-left: 4%;
-    margin-right: 4%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 .aboutme-img {
@@ -319,4 +320,10 @@ main {
     width: auto;
     border-radius: 15px;
     margin-top: 10%;
+}
+
+.aboutme-content {
+    width: 600px;
+    margin-top: 10%;
+    line-height: 1.2rem;
 }
