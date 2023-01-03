@@ -52,6 +52,7 @@ table {
 
 
 /* full page */
+
 html {
     scroll-behavior: smooth;
 }
@@ -68,6 +69,7 @@ main {
 
 
 /* Nav */
+
 .navbar {
     z-index: 10;
     background-color: #DBDBDB;
@@ -102,6 +104,7 @@ main {
 
 
 /* Intro */
+
 .intro-container {
     max-width: 100%;
     display: flex;
@@ -168,6 +171,7 @@ main {
 
 
 /* Projects */
+
 .portfolio {
     height: 750px;
 }
@@ -231,6 +235,7 @@ main {
 
 
 /* Skills */
+
 .skills {
     padding-top: 5%;
     height: 350px;
@@ -327,4 +332,16 @@ main {
     width: 600px;
     margin-top: 10%;
     line-height: 1.2rem;
+}
+
+/* MOBILE */
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+
+
+    .about-content {
+        flex-direction: column;
+    }
+
 }
