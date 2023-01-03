@@ -265,7 +265,7 @@ main {
 
 .skills-list img {
     width: 125px;
-    height: 100%;
+    height: auto;
 }
 
 .javascript figcaption {
@@ -337,8 +337,8 @@ main {
     line-height: 1.2rem;
 }
 
-/* MOBILE */
 
+/* MOBILE */
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
     .intro-description {
@@ -389,13 +389,20 @@ main {
     }
 
     .skills {
-        height: 780px;
+        height: 720px;
         max-width: 100vw;
         padding-top: 4rem;
     }
 
     .skills-list {
-        gap: 3rem;
+        margin-left: 13%;
+        margin-right: 13%;
+        gap: 4rem;
+    }
+
+    .skills-list img {
+        width: 100px;
+        height: auto;
     }
 
     .aboutme-title {
