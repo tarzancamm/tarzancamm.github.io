@@ -180,10 +180,11 @@ main {
 
 .projects-title {
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 700;
     position: relative;
     top: 12%;
+    padding-bottom: 2.5rem;
 }
 
 .projects {
@@ -225,9 +226,14 @@ main {
     line-height: 1.15rem;
 }
 
+.veer h3 {
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+
 .veer a {
+    display: block;
     color: #84596B;
-    padding-left: .6rem;
     text-decoration: none;
 }
 
@@ -249,7 +255,7 @@ main {
 
 .skills-title {
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 700;
 }
 
@@ -307,7 +313,7 @@ main {
 
 .aboutme-title {
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 700;
     margin-top: 7%;
 }
@@ -401,6 +407,7 @@ main {
 
     .projects-title {
         margin-top: 6rem;
+        padding-bottom: 1.5rem;
     }
 
     .project-desc {
