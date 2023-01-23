@@ -411,7 +411,7 @@ main {
     }
 
     .projects {
-        margin-top: 15%;
+        margin-top: 35%;
         display: flex;
         flex-direction: column;
         align-items: center;
