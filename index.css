@@ -189,8 +189,8 @@ main {
 
 .projects {
     display: flex;
-    justify-content: center;
-    margin-top: 7%;
+    justify-content: space-evenly;
+    margin-top: 9%;
 }
 
 .veer {
@@ -393,11 +393,15 @@ main {
     }
 
     .portfolio {
-        height: 700px;
+        height: 1300px;
     }
 
     .projects {
         margin-top: 15%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
     }
 
     .veerphotolink {
@@ -407,6 +411,7 @@ main {
 
     .projects-title {
         margin-top: 6rem;
+        margin-bottom: 7rem;
         padding-bottom: 1.5rem;
     }
 
