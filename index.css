@@ -175,7 +175,7 @@ main {
 /* Projects */
 
 .portfolio {
-    height: 750px;
+    height: 820px;
 }
 
 .projects-title {
@@ -210,13 +210,26 @@ main {
 .veerphotolink:hover {
     transition: 0.25s;
     transform: scale(1.05, 1.05);
-    opacity: .8;
+    opacity: .6;
+}
+
+.project-tech {
+    font-size: .8rem;
+    font-weight: 100;
+    letter-spacing: .2px;
+    margin-top: .4rem;
+}
+
+.project-purple {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
 }
 
 .project-links {
     font-size: 1.1rem;
     font-weight: 600;
-    margin-top: 1rem;
+    margin-top: 1.3rem;
 }
 
 .project-desc {
@@ -229,6 +242,7 @@ main {
 .veer h3 {
     font-weight: bold;
     font-size: 1.7rem;
+    color: #191516;
 }
 
 .veer a {
