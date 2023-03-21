@@ -468,6 +468,10 @@ main {
         text-decoration: none;
     }
 
+    .veer {
+        max-width: 320px;
+    }
+
     .portfolio {
         height: 2400px;
     }
