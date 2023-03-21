@@ -539,3 +539,16 @@ main {
     }
 
 }
+
+
+/* Large Screen */
+
+@media only screen and (min-width: 1200px) {
+    .small-projects {
+        margin-top: 6%;
+    }
+
+    .projects-title {
+        padding-bottom: 0;
+    }
+}
