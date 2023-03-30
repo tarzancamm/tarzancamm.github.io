@@ -341,8 +341,8 @@ main {
     flex-wrap: wrap;
     flex-direction: row;
     margin-top: 3.5rem;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .skills-list img {
@@ -376,6 +376,11 @@ main {
 }
 
 .heroku figcaption {
+    margin-top: .5rem;
+    text-align: center;
+}
+
+.tailwind figcaption {
     margin-top: .5rem;
     text-align: center;
 }
