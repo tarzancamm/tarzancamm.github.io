@@ -552,12 +552,13 @@ main {
 
 /* Large Screen */
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1450px) {
     .small-projects {
         margin-top: 6%;
     }
 
     .projects-title {
         padding-bottom: 0;
+        top: 10%;
     }
 }
